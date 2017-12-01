@@ -1,0 +1,114 @@
+/* ============== CSS RESET ============== */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address,
+    big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt,
+    dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; vertical-align: baseline; }
+/* remember to define focus styles! */
+:focus { outline: 0; }
+body { line-height: 1em; color: #000; background: #FFF; }
+ol, ul { list-style: none; }
+/* tables still need 'cellspacing="0"' in the markup */
+table { border-collapse: separate; border-spacing: 0; }
+caption, th, td { text-align: left; font-weight: normal; }
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+script { display: none; height: 0; width: 0; }
+input { padding: 0; margin: 0; }
+html { font-size: 100.1%; }
+ 
+/* ============== COMMON STYLES ============== */
+html { font: 9pt Tahoma, Arial, sans-serif; }
+body { text-align: left; padding: 1em;}
+.wrap { cursor: default; margin: 0 auto; text-align: left;}
+a { color: #003C74; text-decoration: none; cursor: pointer; }
+a:hover { text-decoration: underline; }
+label { color: #8F8F8F; }
+hr { display: none; }
+table { font-size: 100%; width: 100%; border-collapse: collapse; }
+caption { position: absolute; visibility: hidden; line-height: 0; font-size: 0; overflow: hidden; height: 0; }
+.prev-next { text-align: right; padding: .25em 0; }
+.prev-next li { display: inline; padding: 0 .5em; border-left: 1px solid #CCC; }
+.prev-next li:first-child { border-width: 0; }
+.severe, .severe th, .severe td, .critical, .critical th, .critical td { color: #E50D34; font-weight: bold; }
+ 
+/* Layout */
+
+.navigation { position: absolute; visibility: hidden; }
+.ps-hd { font-size: 1.3em; padding: .5em 0; margin: 0 0 .5em 0; border-bottom: 1px solid #CCC; font-weight: bold; color: #666; }
+#sectionOne { float: left; width: 49%; margin: 0 1% 0 0;}
+#sectionTwo { float: left; width: 49%; margin: 0 1% 0 0;}
+#sectionThree { float: left; width: 32%}
+
+  
+/* Acute Management Plan Styles   */
+#AMP_sidebar {
+    float: right; 
+	width:20%;
+	margin-left:10px;
+}
+
+.AMP-side-sec div {
+	margin-top: 5px;
+	margin-right: 3px;
+	margin-bottom: 20px;
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-bottom: 15px;
+	border: 2px solid #4545ED;
+	border-radius: 15px;
+	box-shadow:3px 3px 6px #999;
+}
+
+#AMP-new {
+	display : none;
+}
+
+.AMP-side-sec div ul li{
+	padding-bottom: 8px;
+}
+
+a.schn-link {
+	color: #3380E5;
+	text-decoration: underline;
+}
+
+h3.schn-h3 {
+	font-size:14px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+#AMP_plans {
+	width: 70%;
+	padding-top: 30px;
+	margin-left: 20px;
+	min-height: 150px;
+}
+
+a.amp_link {
+	color: #0000ff;
+	text-decoration: underline;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.schn-instruction {
+	display:block;
+	padding-top: 5px;
+	font-style: italic;
+}
+
+.amp_row {
+	height: 50px;
+	border-bottom: 1px solid #EDEDED;
+}
+
+.amp_row td {
+	padding-top: 10px;
+}
+
+.res-none {
+	font-size: 12px;
+	display:block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}

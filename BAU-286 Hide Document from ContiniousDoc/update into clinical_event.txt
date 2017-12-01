@@ -1,0 +1,5 @@
+update into clinical_event c
+set c.view_level = 0,
+c.result_status_cd = 44343,
+c.record_status_cd = 1625
+where c.parent_event_id in (269991071.00) go

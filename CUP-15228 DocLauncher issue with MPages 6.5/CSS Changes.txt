@@ -1,0 +1,16 @@
+The following CSS changes ahve been added to the end of custom-components.css file in static contents in following folders:
+W:\linux_mock_env\Winintel\static_content\custom_mpage_content\custom-components\css
+W:\linux_mock_env\Winintel\static_content\MPAGES_6_5\custom-components\css
+W:\linux_mock_env\Winintel\static_content\UnifiedContent\custom-components\css
+
+
+/*	Javad Adeli - 24/10/2017 - to fix DocLauncher Heading style issue caused in MPages 6.5 */
+.sub-title-disp .noe-drop-down{
+	margin-left: 0 !important;
+	}	
+.sub-title-disp.doc-launcher{
+	width: 100% !important;
+	}
+.nswsbb-mnu-labelbox{
+     height:1.8em !important;
+ }

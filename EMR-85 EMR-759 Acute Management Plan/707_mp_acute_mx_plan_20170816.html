@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=10">
+    <meta http-equiv="Content-Type" content="XMLCCLREQUEST,APPLINK,MPAGES_EVENT,CCLLINK" name="discern"/>
+    <link href="$SOURCE_DIR$\css\707_mp_acute_mx_plan.css" rel="stylesheet" type="text/css"/>
+    <script language="javascript" type="text/javascript" src="$SOURCE_DIR$\js\jquery\jquery-1.5.1.min.js"></script>
+    <script language="javascript" type="text/javascript" src="$SOURCE_DIR$\js\707_mp_common.js"></script>
+    <script language="javascript" type="text/javascript" src="$SOURCE_DIR$\js\707_mp_acute_mx_plan.js"></script>
+ 
+</head>
+<body onload='javascript:getPlans();'>
+ 
+<div class="wrap">
+	<h1 class="ps-hd"><span>Management Plans</span></h1>
+ 
+	<div id="AMP_sidebar">
+		<div id="AMP-new" class="AMP-side-sec">
+			<h3 class="schn-h3"><span>Add a New Management Plan</span></h3>
+        	<div>
+				<ul>
+					<li><a class="schn-link" id="adrInsuff" href="javascript:openPowerform($pat_personid$, $vis_encntrid$, 55532354, 0.0, 0);">Adrenal Insufficiency Plan</a></li>
+					<li><a class="schn-link" id="allowNtDth" href="javascript:openPowerform($pat_personid$, $vis_encntrid$, 43470624, 0.0, 0);">Allow a Natural Death Plan</a></li>
+					<li><a class="schn-link" id="anaesDifAW" href="javascript:createNewDynDoc($pat_personid$, $vis_encntrid$, 1229041,82857682);">Anaesthetic Difficult Airway Plan</a></li>
+					<li><a class="schn-link" id="anaesSp" href="javascript:createNewDynDoc($pat_personid$, $vis_encntrid$,1229041,82857686);">Anaesthetic Special Needs Plan</a></li>
+					<li><a class="schn-link" id="astActPlan" href="javascript:openPowerform($pat_personid$, $vis_encntrid$, 5858361, 0.0, 0);">Asthma Action Plan</a></li>
+					<li><a class="schn-link" id="astRedPlan" href="javascript:openPowerform($pat_personid$, $vis_encntrid$, 5859026, 0.0, 0);">Asthma Reducing Medication Plan</a></li>
+					<!-- <li><a class="schn-link" id="cvad" href="javascript:openPowerform($pat_personid$, $vis_encntrid$, 21466482, 0.0, 0);">CVAD Insertion and Removal</a></li> -->
+					<li><a class="schn-link" id="kidsGPS" href="javascript:createNewDynDoc($pat_personid$, $vis_encntrid$,1229041,82228317);">Kids GPS Management Plan</a></li>
+					<li><a class="schn-link" id="neuroED" href="javascript:createNewDynDoc($pat_personid$, $vis_encntrid$,1229041,82228255);">Neurology Management Plan-ED</a></li>
+					<li><a class="schn-link" id="wheezePlan" href="javascript:openPowerform($pat_personid$, $vis_encntrid$, 56112259, 0.0, 0);">Pre School Wheeze Action Plan</a></li>
+					<li><a class="schn-link" id="respSupport" href="javascript:openPowerform($pat_personid$, $vis_encntrid$, 43454599, 0.0, 0);">Respiratory Support Settings</a></li>
+					<li><a class="schn-link" id="kidsGPS" href="javascript:createNewDynDoc($pat_personid$, $vis_encntrid$,1229041,82228245);">Seizure Management Plan-ED</a></li>
+					<li><a class="schn-link" id="kidsGPS" href="javascript:createNewDynDoc($pat_personid$, $vis_encntrid$,1229041,82228247);">Seizure Management Plan-Inpatient</a></li>
+					<li><a class="schn-link" id="sevAstPlan" href="javascript:openPowerform($pat_personid$, $vis_encntrid$, 45737698, 0.0, 0);">Severe Asthma Management Plan</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="jump" class="AMP-side-sec">
+			<h3 class="schn-h3"><span>Open Chart to...</span></h3>
+			<div>
+				<ul>
+					<li><a class="schn-link" href='javascript:APPLINK(0,"$APP_AppName$","/PERSONID=$PAT_PERSONID$ /ENCNTRID=$VIS_ENCNTRID$ /FIRSTTAB=^Problems, Alerts and Diagnoses^");'>Problems, Alerts and Diagnoses</a>
+						<span id="add-problem"><a class="schn-link" href='javascript:APPLINK(0,"$APP_AppName$","/PERSONID=$PAT_PERSONID$ /ENCNTRID=$VIS_ENCNTRID$ /FIRSTTAB=^Problems, Alerts and Diagnoses+^");'>&nbsp;(Add)</a></span>
+					</li>
+					<li><a class="schn-link" href='javascript:APPLINK(0,"$APP_AppName$","/PERSONID=$PAT_PERSONID$ /ENCNTRID=$VIS_ENCNTRID$ /FIRSTTAB=^Documentation^")'>Documentation</a></li>
+					<li><a class="schn-link" href='javascript:APPLINK(0,"$APP_AppName$","/PERSONID=$PAT_PERSONID$ /ENCNTRID=$VIS_ENCNTRID$ /FIRSTTAB=^Clinical Notes^")'>Clinical Notes</a></li>
+					<li><a class="schn-link" href='javascript:APPLINK(0,"$APP_AppName$","/PERSONID=$PAT_PERSONID$ /ENCNTRID=$VIS_ENCNTRID$ /FIRSTTAB=^Results^")'>Results</a></li>
+					<li><a class="schn-link" href='javascript:APPLINK(0,"$APP_AppName$","/PERSONID=$PAT_PERSONID$ /ENCNTRID=$VIS_ENCNTRID$ /FIRSTTAB=^Orders^")'>Orders</a></li>
+					<li><a class="schn-link" href="javascript:openPowerform($pat_personid$, $vis_encntrid$, 0.0, 0.0, 0);">Ad Hoc Charting</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+ 
+ 
+	<div id="AMP_plans">
+		<!--<h3 class="schn-h3"><span>Current Management Plans</span></h3>-->
+ 		<div id="current_plans"></div>
+ 		<!--<p><a class="schn-link" href='javascript:refresh();'>Refresh List</a></p>-->
+	</div>
+ 
+ 
+</div>
+ 
+</body>
+<script language="javascript" type="text/javascript">
+	var MPAGE_REC = $MPAGE_REC$.MPAGE_REC;
+</script>
+
+ 
+</html>

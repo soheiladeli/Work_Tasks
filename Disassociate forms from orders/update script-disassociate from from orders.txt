@@ -1,0 +1,4 @@
+;removing associated form linked to an order
+update into order_catalog o
+set o.form_id = 0
+where o.catalog_cd = 82767924.00

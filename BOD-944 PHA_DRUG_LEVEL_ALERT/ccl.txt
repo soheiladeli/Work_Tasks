@@ -1,0 +1,72 @@
+;EKS_CALC_SAVE_L
+SELECT
+med.CURRENT_START_DT_TM
+,lab.CURRENT_START_DT_TM
+,diff = DATETIMEDIFF(med.CURRENT_START_DT_TM,lab.CURRENT_START_DT_TM,4)
+, yes = 1
+, no = 0
+FROM orders med, orders lab
+where med.order_id = @ORDERID:4
+and med.dept_status_cd = 
+value(uar_get_code_by("DISPLAYKEY",14281, "ORDERED"))
+and lab.order_id = @ORDERID:3
+and lab.dept_status_cd = 
+value(uar_get_code_by("DISPLAYKEY",14281, "DISPATCHED"))		
+detail if (DATETIMEDIFF(med.CURRENT_START_DT_TM,lab.CURRENT_START_DT_TM,4) < 120 and DATETIMEDIFF(med.CURRENT_START_DT_TM,lab.CURRENT_START_DT_TM,4) > -120)
+log_misc1 = build(yes) else log_misc1 = build( no) endif go
+
+SELECT
+med.CURRENT_START_DT_TM
+,lab.CURRENT_START_DT_TM
+FROM orders med, orders lab
+where med.order_id = @ORDERID:3
+and med.dept_status_cd = 
+value(uar_get_code_by("DISPLAYKEY",14281, "ORDERED"))
+and lab.order_id = @ORDERID:2
+and lab.dept_status_cd = 
+value(uar_get_code_by("DISPLAYKEY",14281, "DISPATCHED"))		
+detail if (DATETIMEDIFF(med.CURRENT_START_DT_TM,lab.CURRENT_START_DT_TM,4) < 120 and DATETIMEDIFF(med.CURRENT_START_DT_TM,lab.CURRENT_START_DT_TM,4) > -120)
+log_misc1 = "1" else log_misc1 = "0" endif go
+
+;EKS_EVAL_L
+cnvtint(@misc:5) = 1
+
+;dvd test query
+drop program test05 go
+create program test05
+
+prompt 
+	"Output to File/Printer/MINE" = "MINE"   ;* Enter or select the printer or file name to send this report to. 
+
+with OUTDEV
+
+SELECT into $outdev ;"nl:";
+
+	med.CURRENT_START_DT_TM
+	, lab.CURRENT_START_DT_TM
+	,diff = DATETIMEDIFF(med.CURRENT_START_DT_TM,lab.CURRENT_START_DT_TM,4)
+	, yes = 1
+	, no = 0
+
+FROM
+	orders   med
+	, orders   lab
+
+where med.order_id = 142805689
+		and med.dept_status_cd = value(uar_get_code_by("DISPLAYKEY",14281, "ORDERED"))
+and  lab.order_id = 142805659
+		and lab.dept_status_cd = value(uar_get_code_by("DISPLAYKEY",14281, "DISPATCHED"))		
+
+detail
+
+if (DATETIMEDIFF(med.CURRENT_START_DT_TM,lab.CURRENT_START_DT_TM,4) < 120)
+	 yes
+else
+	 no
+endif
+
+;WITH format
+
+end
+go
+

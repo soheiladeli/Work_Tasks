@@ -1,0 +1,35 @@
+
+**PARENT_EVENT_ID - CALC_SAVE_L**
+select c.parent_event_id from clinical_event c
+where  c.clinical_event_id = @CLINICALEVENTID:2
+detail log_misc1 = cnvtstring(c.parent_event_id) go
+
+**Actual Date - CALC_SAVE_L**
+select c.result_dt_tm from clinical_event ce, ce_date_result c 
+where ce.parent_event_id = cnvtreal("@MISC:{PARENT_EVENT_ID}") 
+and ce.event_id = c.event_id 
+detail log_misc1 = format(c.result_dt_tm,"dd-MMM-yyyy hh:mm:ss;;q") go
+
+**Request date/Time**
+@MISC:{Actual Date}
+****************************************
+**Lumen Typ - CALC_SAVE_L**
+select cd.label_name 
+from clinical_event c ,ce_dynamic_label cd
+plan c where c.clinical_event_id in (@CLINICALEVENTID:{Hep lock result})
+join cd where cd.ce_dynamic_label_id = c.ce_dynamic_label_id
+head report log_misc1 = "NO DATA"
+detail log_misc1 = trim(cd.label_name)
+with nocounter, nullreport go
+
+**Lumen Type result - EVAL_L**
+EKS_EVAL_L
+"@MISC:{Lumen Type}"= "CVC Red lumen"
+"@MISC:{Lumen Type}"= "CVC White lumen"
+"@MISC:{Lumen Type}"= "CVC Purple"
+"@MISC:{Lumen Type}"= "CVC Blue"
+"@MISC:{Lumen Type}"= "CVC Brown"
+"@MISC:{Lumen Type}"= "Portacath left"
+"@MISC:{Lumen Type}"= "Portacath right"
+"@MISC:{Lumen Type}"= "Other: *"
+********************************************

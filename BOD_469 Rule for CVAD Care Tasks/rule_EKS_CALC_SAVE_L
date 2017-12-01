@@ -1,0 +1,5 @@
+select cd.label_name 
+from clinical_event c ,ce_dynamic_label cd
+plan c where c.clinical_event_id = @CLINICALEVENTID:x
+join cd wher cd.ce_dynamic_label_id = c.ce_dynamic_label_id
+detail log_misc1 = build(cd.label_name) GO

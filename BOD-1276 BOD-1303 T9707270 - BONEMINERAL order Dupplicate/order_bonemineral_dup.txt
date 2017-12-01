@@ -1,0 +1,40 @@
+;//EKS_CALC_SAVE
+select cnt = count(o.order_id)
+from orders o, sch_event_attach s, sch_event se
+plan o where o.person_id = trigger_personid
+and o.catalog_cd = 5079041
+and o.order_status_cd in (1084, 1088, 2687)
+and o.current_start_dt_tm >
+cnvtdatetime("@ORDERDETAIL:[Requested Start Date/Time]:1") -365
+join s where s.order_id = o.order_id
+join se where se.sch_event_id = s.sch_event_id
+and se.sch_state_cd in (5126, 5127, 5128)
+detail log_misc1 =cnvtstring(cnt) go
+
+;//EKS_EVAL_L
+@MISC:3 > 0
+
+;//Query
+SELECT
+	o.CURRENT_START_DT_TM "@SHORTDATETIME"
+	, O_CATALOG_DISP = UAR_GET_CODE_DISPLAY(O.CATALOG_CD)
+	, S.ATTACH_TYPE_MEANING
+	, S.DESCRIPTION
+	, S.ORDER_STATUS_MEANING
+	, S.STATE_MEANING
+	, SE_SCH_STATE_DISP = UAR_GET_CODE_DISPLAY(SE.SCH_STATE_CD)
+	, SE.SCH_MEANING
+	, SE.GRP_DESC
+	, SE.APPT_SYNONYM_FREE
+
+FROM
+	orders   o
+	, SCH_EVENT_ATTACH   S
+	, SCH_EVENT   SE
+
+plan o where o.person_id = 419003 ;trigger_personid
+and o.catalog_cd = 5079041
+and o.order_status_cd in (1084, 1088, 2687) ;ordered,completed,future
+join s where s.order_id = o.order_id
+join se where se.sch_event_id = s.sch_event_id
+and se.sch_state_cd in (5126, 5127, 5128) ;confirmed, checked in, checked out

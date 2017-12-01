@@ -1,0 +1,6 @@
+;fixing the issue with explorer menus blank screen
+;deleting the rows for explorer menu (3070000) from application_ini
+
+delete into APPLICATION_INI   A
+where a.application_number = 3070000
+and a.person_id = 49076932 go

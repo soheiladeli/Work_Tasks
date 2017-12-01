@@ -1,0 +1,32 @@
+//old build cdrive
+707_mp_driver_cdrive
+"MINE", $PAT_PersonID$, $VIS_EncntrID$, $USR_PersonID$, $USR_PositionCd$, $PAT_PPRCode$,"$DEV_Location$", "$APP_AppName$","C:\\Program Files\\Cerner\\static_content\\UNIFIEDCONTENT_TF\\custom-components","CCLPROG:707_mp_acute_mx_plan.html"
+
+//old build websphere
+707_mp_driver
+"MINE", $PAT_PersonID$, $VIS_EncntrID$, $USR_PersonID$, $USR_PositionCd$, $PAT_PPRCode$,"$DEV_Location$", "$APP_AppName$","","CCLPROG:707_mp_acute_mx_plan.html"
+
+//new build cdrive
+mp_common_driver_nsw_au
+"MINE", $PAT_PersonID$, $VIS_EncntrID$, $USR_PersonID$, "C:\\Program Files\\Cerner\\static_content\\UNIFIEDCONTENT_TF\\custom-components", "707_mp_acute_mx_plan.html", "$APP_AppName$","CCLPROG:",$USR_PositionCd$,$PAT_PPRCode$,0
+"MINE", $PAT_PersonID$, $VIS_EncntrID$, $USR_PersonID$, "C:\\Program Files\\Cerner\\static_content\\UNIFIEDCONTENT_TF\\custom-components", "707_mp_acute_mx_plan.html", "$APP_AppName$","CCLPROG:",$USR_PositionCd$,$PAT_PPRCode$,0
+
+//new build websphere
+mp_common_driver_nsw_au
+"MINE", $PAT_PersonID$, $VIS_EncntrID$, $USR_PersonID$, "http://odrnp1/mpage-content/build.schn.health.nsw.gov.au/custom_mpage_content/custom-components", "707_mp_acute_mx_plan.html", "$APP_AppName$","CCLPROG:",$USR_PositionCd$,$PAT_PPRCode$,0
+
+//old cert
+707_mp_driver
+"MINE", $PAT_PersonID$, $VIS_EncntrID$, $USR_PersonID$, $USR_PositionCd$, $PAT_PPRCode$,"$DEV_Location$", "$APP_AppName$","","CCLPROG:707_mp_acute_mx_plan.html"
+
+//new cert
+mp_common_driver_nsw_au
+"MINE", $PAT_PersonID$, $VIS_EncntrID$, $USR_PersonID$, "http://cernerodrnp1/mpage-content/cert.schn.health.nsw.gov.au/custom_mpage_content/custom-components", "707_mp_acute_mx_plan.html", "$APP_AppName$","CCLPROG:",$USR_PositionCd$,$PAT_PPRCode$,0
+
+//old prod
+707_mp_driver
+"MINE", $PAT_PersonID$, $VIS_EncntrID$, $USR_PersonID$, $USR_PositionCd$, $PAT_PPRCode$,"$DEV_Location$", "$APP_AppName$","","CCLPROG:707_mp_acute_mx_plan.html"
+
+//new prod
+mp_common_driver_nsw_au
+"MINE", $PAT_PersonID$, $VIS_EncntrID$, $USR_PersonID$, "http://LB-Cerner-ODR/mpage-content/prod.schn.health.nsw.gov.au/custom_mpage_content/custom-components", "707_mp_acute_mx_plan.html", "$APP_AppName$","CCLPROG:",$USR_PositionCd$,$PAT_PPRCode$,0
