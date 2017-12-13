@@ -7,7 +7,7 @@
  *000	1/11/17		Javad Adeli			To audit the list of all documents charted  *
  *										that need to be hidden and then update the 	*
  *										clinical_event table to hide them.			*
- *																					*
+ *001																				*
  *																					*
  *																					*
  ************************************************************************************

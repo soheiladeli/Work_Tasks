@@ -1,0 +1,9 @@
+update into task_activity
+set task_status_cd = 398.00
+, updt_id = 49057605
+, updt_task = 0
+, updt_applctx = 0.0
+, updt_dt_tm = cnvtdatetime(curdate,curtime3)
+where task_id in (84113563.00,84113565.00,84113567.00)
+go
+commit go

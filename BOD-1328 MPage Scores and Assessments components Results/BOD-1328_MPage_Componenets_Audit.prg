@@ -1,4 +1,4 @@
-;Name:				MPage Componenets Audity
+;Name:				MPage Componenets Audit
 ;Developed by:		Javad Adeli
 ;Comments:			Uncommnet query to filter as required
 
