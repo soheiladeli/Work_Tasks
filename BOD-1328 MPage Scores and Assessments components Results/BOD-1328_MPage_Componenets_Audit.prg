@@ -38,15 +38,15 @@ FROM
 	, BR_DATAMART_FLEX   BDFR
 	, CODE_VALUE   CV2
 
-plan bdc ; where bdc.category_name = "Assessment" ;//uncomment to filter by MPage
+plan bdc ; where bdc.category_name = "Assessment" ;//uncomment and change to filter by MPage
 
 join  b WHERE b.br_datamart_category_id = bdc.br_datamart_category_id
-		and b.report_name = "Patient Assessment" ;//Filter by componenet name
+		and b.report_name = "Patient Assessment" ;//change to Filter by componenet name
 join bd where BD.BR_DATAMART_REPORT_ID = B.BR_DATAMART_REPORT_ID
 join bdv where BDV.BR_DATAMART_FILTER_ID= bd.br_datamart_filter_id
 
 join cv1 where CV1.CODE_VALUE = BDV.PARENT_ENTITY_ID
-;and cv1.code_value in (55019734,55019736) ;// uncomment to filter by event codes
+;and cv1.code_value in (55019734,55019736) ;// uncomment and change to filter by event codes
 
 join bdf where BDF.BR_DATAMART_FILTER_ID = BDV.BR_DATAMART_FILTER_ID
 		and bdf.filter_category_mean = "EVENT" ;//Filter by event code type filters only

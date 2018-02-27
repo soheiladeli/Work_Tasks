@@ -1,0 +1,2266 @@
+******************************************************************************************
+KIA_IMP_DTA                     :begin >   02-FEB-2018 12:23:39
+
+DEBUG
+The number of items to be imported = 100.
+
+DEBUG
+Script elapsed time(secs):10.000000
+
+End   : SUCCESS  02-FEB-2018 12:23:49
+******************************************************************************************
+KIA_IMP_DTA                     :begin >   02-FEB-2018 12:23:49
+
+DEBUG
+The number of items to be imported = 85.
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387263   ; DISPLAY = WeeFIM Eating Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Eating Score
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Eating Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Eating Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Eating Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Eating Score
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387267
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387277   ; DISPLAY = WeeFIM Eating Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Eating Norm
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Eating Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Eating Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Eating Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 1874880
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Eating Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 1874880; AGE_TO = 3080160
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Eating Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 3080160; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Eating Norm
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387281
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387295   ; DISPLAY = WeeFIM Grooming Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Grooming Score
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Grooming Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Grooming Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Grooming Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Grooming Score
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387299
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387309   ; DISPLAY = WeeFIM Grooming Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Grooming Norm
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Grooming Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Grooming Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Grooming Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 1740960
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Grooming Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 1740960; AGE_TO = 2142720
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Grooming Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 2142720; AGE_TO = 2946240
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Grooming Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 2946240; AGE_TO = 3749760
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Grooming Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 3749760; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Grooming Norm
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387313
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387331   ; DISPLAY = WeeFIM Bathing Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Bathing Score
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bathing Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bathing Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bathing Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bathing Score
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387335
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387345   ; DISPLAY = WeeFIM Bathing Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Bathing Norm
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bathing Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bathing Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bathing Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 1874880
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bathing Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 1874880; AGE_TO = 2410560
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bathing Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 2410560; AGE_TO = 2946240
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bathing Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 2946240; AGE_TO = 3749760
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bathing Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 3749760; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bathing Norm
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387349
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387367   ; DISPLAY = WeeFIM Dressing Upper Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Dressing Upper Score
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Dressing Upper Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Dressing Upper Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Dressing Upper Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Dressing Upper Score
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387371
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387381   ; DISPLAY = WeeFIM Dressing Upper Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Dressing Upper Norm
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Dressing Upper Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Dressing Upper Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Dressing Upper Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 2008800
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Dressing Upper Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 2008800; AGE_TO = 2678400
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Dressing Upper Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 2678400; AGE_TO = 3481920
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Dressing Upper Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 3481920; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Dressing Upper Norm
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387385
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387401   ; DISPLAY = WeeFIM Dressing Lower Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Dressing Lower Score
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Dressing Lower Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Dressing Lower Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Dressing Lower Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Dressing Lower Score
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387405
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387415   ; DISPLAY = WeeFIM Dressing Lower Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Dressing Lower Norm
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Dressing Lower Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Dressing Lower Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Dressing Lower Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 2142720
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Dressing Lower Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 2142720; AGE_TO = 2812320
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Dressing Lower Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 2812320; AGE_TO = 3481920
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Dressing Lower Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 3481920; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Dressing Lower Norm
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387419
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387435   ; DISPLAY = WeeFIM Toileting Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Toileting Score
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Toileting Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Toileting Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Toileting Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Toileting Score
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387439
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387449   ; DISPLAY = WeeFIM Toileting Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Toileting Norm
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Toileting Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Toileting Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Toileting Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 1740960
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Toileting Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 1740960; AGE_TO = 2544480
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Toileting Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 2544480; AGE_TO = 3348000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Toileting Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 3348000; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Toileting Norm
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387453
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387469   ; DISPLAY = WeeFIM Bladder Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Bladder Score
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bladder Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bladder Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bladder Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bladder Score
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387473
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387483   ; DISPLAY = WeeFIM Bladder Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Bladder Norm
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bladder Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bladder Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bladder Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 2276640
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bladder Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 2276640; AGE_TO = 3214080
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bladder Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 3214080; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bladder Norm
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387487
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387501   ; DISPLAY = WeeFIM Bowel Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Bowel Score
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bowel Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bowel Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bowel Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bowel Score
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387505
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387515   ; DISPLAY = WeeFIM Bowel Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Bowel Norm
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bowel Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bowel Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bowel Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 2544480
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bowel Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 2544480; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bowel Norm
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387519
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387531   ; DISPLAY = WeeFIM Self Care Total Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Self Care Total Score
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Self Care Total Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Self Care Total Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Self Care Total Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Self Care Total Score
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387535
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387545   ; DISPLAY = WeeFIM Self Care Total Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Self Care Total Norm
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Self Care Total Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Self Care Total Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Self Care Total Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Self Care Total Norm
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387549
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387559   ; DISPLAY = WeeFIM Transfers-Chair/Weelchair Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Transfers-Chair/Weelchair Score
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Chair/Weelchair Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Chair/Weelchair Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Chair/Weelchair Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Chair/Weelchair Score
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387563
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387573   ; DISPLAY = WeeFIM Transfers-Chair/Weelchair Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Transfers-Chair/Weelchair Norm
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Chair/Weelchair Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Chair/Weelchair Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Chair/Weelchair Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Chair/Weelchair Norm
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387577
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387587   ; DISPLAY = WeeFIM Transfers-Toilet Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Transfers-Toilet Score
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Toilet Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Toilet Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Toilet Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Toilet Score
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387591
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387601   ; DISPLAY = WeeFIM Transfers-Toilet Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Transfers-Toilet Norm
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Toilet Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Toilet Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Toilet Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 2410560
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Toilet Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 2410560; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Toilet Norm
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387605
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387617   ; DISPLAY = WeeFIM Transfers-Tub/Shower Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Transfers-Tub/Shower Score
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Tub/Shower Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Tub/Shower Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Tub/Shower Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Tub/Shower Score
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387621
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387631   ; DISPLAY = WeeFIM Transfers-Tub/Shower Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Transfers-Tub/Shower Norm
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Tub/Shower Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Tub/Shower Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Tub/Shower Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 2008800
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Tub/Shower Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 2008800; AGE_TO = 3080160
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Tub/Shower Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 3080160; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Tub/Shower Norm
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387635
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387649   ; DISPLAY = WeeFIM Loco-Walk/Wheelchair/Crawl Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Locomotion-Walk/Wheelchair/Crawl Score
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Locomotion-Walk/Wheelchair/Crawl Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Locomotion-Walk/Wheelchair/Crawl Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Locomotion-Walk/Wheelchair/Crawl Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Locomotion-Walk/Wheelchair/Crawl Score
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387653
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387663   ; DISPLAY = WeeFIM Loco-Walk/Wheelchair/Crawl Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Locomotion-Walk/Wheelchair/Crawl Norm
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Locomotion-Walk/Wheelchair/Crawl Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Locomotion-Walk/Wheelchair/Crawl Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Locomotion-Walk/Wheelchair/Crawl Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 2142720
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Locomotion-Walk/Wheelchair/Crawl Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 2142720; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Locomotion-Walk/Wheelchair/Crawl Norm
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387667
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387679   ; DISPLAY = WeeFIM Locomotion-Stairs Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Locomotion-Stairs Score
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Locomotion-Stairs Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Locomotion-Stairs Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Locomotion-Stairs Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Locomotion-Stairs Score
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387683
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387693   ; DISPLAY = WeeFIM Locomotion-Stairs Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Locomotion-Stairs Norm
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Locomotion-Stairs Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Locomotion-Stairs Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Locomotion-Stairs Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 1740960
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Locomotion-Stairs Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 2678400; AGE_TO = 2678400
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Locomotion-Stairs Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 2678400; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Locomotion-Stairs Norm
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387697
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387711   ; DISPLAY = WeeFIM MobilityTotal Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM MobilityTotal Score
+Row identifier(s) - DTA_MNEMONIC = WeeFIM MobilityTotal Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM MobilityTotal Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM MobilityTotal Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM MobilityTotal Score
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387715
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387725   ; DISPLAY = WeeFIM MobilityTotal Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM MobilityTotal Norm
+Row identifier(s) - DTA_MNEMONIC = WeeFIM MobilityTotal Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM MobilityTotal Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM MobilityTotal Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM MobilityTotal Norm
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387729
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387739   ; DISPLAY = WeeFIM Comprehension Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Comprehension Score
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Comprehension Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Comprehension Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Comprehension Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Comprehension Score
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387743
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387753   ; DISPLAY = WeeFIM Comprehension Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Comprehension Norm
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Comprehension Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Comprehension Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Comprehension Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 2276640
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Comprehension Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 2276640; AGE_TO = 2946240
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Comprehension Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 2946240; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Comprehension Norm
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387757
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387771   ; DISPLAY = WeeFIM Expression Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Expression Score
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Expression Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Expression Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Expression Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Expression Score
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387775
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387785   ; DISPLAY = WeeFIM Expression Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Expression Norm
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Expression Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Expression Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Expression Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 1740960
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Expression Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 1740960; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Expression Norm
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387789
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387801   ; DISPLAY = WeeFIM Social Interaction Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Social Interaction Score
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Social Interaction Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Social Interaction Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Social Interaction Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Social Interaction Score
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387805
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387815   ; DISPLAY = WeeFIM Social Interaction Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Social Interaction Norm
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Social Interaction Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Social Interaction Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Social Interaction Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 1874880
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Social Interaction Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 1874880; AGE_TO = 2544480
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Social Interaction Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 2544480; AGE_TO = 3481920
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Social Interaction Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 3481920; AGE_TO = 3749760
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Social Interaction Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 3749760; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Social Interaction Norm
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387819
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387837   ; DISPLAY = WeeFIM Problem Solving Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Problem Solving Score
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Problem Solving Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Problem Solving Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Problem Solving Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Problem Solving Score
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387841
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387851   ; DISPLAY = WeeFIM Problem Solving Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Problem Solving Norm
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Problem Solving Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Problem Solving Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Problem Solving Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 2142720
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Problem Solving Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 2142720; AGE_TO = 2812320
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Problem Solving Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 2812320; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Problem Solving Norm
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387855
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387869   ; DISPLAY = WeeFIM Memory Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Memory Score
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Memory Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Memory Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Memory Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Memory Score
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387873
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387883   ; DISPLAY = WeeFIM Memory Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Memory Norm
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Memory Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Memory Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Memory Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 2410560
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Memory Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 2410560; AGE_TO = 3214080
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Memory Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 3214080; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Memory Norm
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387887
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387901   ; DISPLAY = WeeFIM Cognition Total Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Cognition Total Score
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Cognition Total Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Cognition Total Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Cognition Total Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Cognition Total Score
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387905
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387915   ; DISPLAY = WeeFIM Cognition Total Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Cognition Total Norm
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Cognition Total Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Cognition Total Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Cognition Total Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Cognition Total Norm
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387919
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387929   ; DISPLAY = WeeFIM Motor Total Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Motor Total Score
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Motor Total Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Motor Total Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Motor Total Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Motor Total Score
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387933
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387943   ; DISPLAY = WeeFIM Motor Total Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Motor Total Norm
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Motor Total Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Motor Total Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Motor Total Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Motor Total Norm
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387947
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387957   ; DISPLAY = WeeFIM Total Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Total Score
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Total Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Total Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Total Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Total Score
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387961
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387971   ; DISPLAY = WeeFIM Total Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Total Norm
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Total Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Total Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DATA_MAP
+Field value(s) - MIN_DIGITS = 0; MAX_DIGITS = 0; MIN_DECIMAL_PLACES = 0
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Total Norm
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Total Norm
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387975
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387985   ; DISPLAY = WeeFIM Eating Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Eating Brain Injury
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Eating Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Eating Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Eating Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = No
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Eating Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = Yes
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Eating Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84387989
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84387999   ; DISPLAY = WeeFIM Grooming Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Grooming Brain Injury
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Grooming Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Grooming Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Grooming Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = No
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Grooming Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = Yes
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Grooming Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84388003
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84388013   ; DISPLAY = WeeFIM Bathing Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Bathing Brain Injury
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bathing Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bathing Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bathing Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = No
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bathing Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = Yes
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bathing Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84388017
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84388027   ; DISPLAY = WeeFIM Dressing Upper Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Dressing Upper Brain Injury
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Dressing Upper Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Dressing Upper Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Dressing Upper Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = No
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Dressing Upper Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = Yes
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Dressing Upper Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84388031
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84388041   ; DISPLAY = WeeFIM Dressing Lower Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Dressing Lower Brain Injury
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Dressing Lower Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Dressing Lower Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Dressing Lower Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = No
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Dressing Lower Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = Yes
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Dressing Lower Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84388045
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84388055   ; DISPLAY = WeeFIM Toileting Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Toileting Brain Injury
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Toileting Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Toileting Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Toileting Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = No
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Toileting Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = Yes
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Toileting Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84388059
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84388069   ; DISPLAY = WeeFIM Bladder Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Bladder Brain Injury
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bladder Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bladder Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bladder Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = No
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bladder Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = Yes
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bladder Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84388073
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84388083   ; DISPLAY = WeeFIM Bowel Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Bowel Brain Injury
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bowel Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bowel Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bowel Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = No
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bowel Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = Yes
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Bowel Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84388087
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84388097   ; DISPLAY = WeeFIM Chair/Weelchair Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Transfers-Chair/Weelchair Brain Injury
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Chair/Weelchair Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Chair/Weelchair Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Chair/Weelchair Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = No
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Chair/Weelchair Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = Yes
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Chair/Weelchair Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84388101
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84388111   ; DISPLAY = WeeFIM Transfers-Toilet Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Transfers-Toilet Brain Injury
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Toilet Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Toilet Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Toilet Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = No
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Toilet Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = Yes
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Toilet Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84388115
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84388125   ; DISPLAY = WeeFIM Transfers-Tub/Shower Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Transfers-Tub/Shower Brain Injury
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Tub/Shower Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Tub/Shower Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Tub/Shower Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = No
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Tub/Shower Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = Yes
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Transfers-Tub/Shower Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84388129
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84388139   ; DISPLAY = WeeFIM Walk/Wheelchair Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Locomotion-Walk/Wheelchair Brain Injury
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Locomotion-Walk/Wheelchair Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Locomotion-Walk/Wheelchair Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Locomotion-Walk/Wheelchair Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = No
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Locomotion-Walk/Wheelchair Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = Yes
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Locomotion-Walk/Wheelchair Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84388143
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84388153   ; DISPLAY = WeeFIM Locomotion-Stairs Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Locomotion-Stairs Brain Injury
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Locomotion-Stairs Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Locomotion-Stairs Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Locomotion-Stairs Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = No
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Locomotion-Stairs Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = Yes
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Locomotion-Stairs Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84388157
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84388167   ; DISPLAY = WeeFIM Comprehension Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Comprehension Brain Injury
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Comprehension Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Comprehension Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Comprehension Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = No
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Comprehension Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = Yes
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Comprehension Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84388171
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84388181   ; DISPLAY = WeeFIM Expression Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Expression Brain Injury
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Expression Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Expression Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Expression Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = No
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Expression Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = Yes
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Expression Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84388185
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84388195   ; DISPLAY = WeeFIM Social Interaction Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Social Interaction Brain Injury
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Social Interaction Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Social Interaction Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Social Interaction Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = No
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Social Interaction Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = Yes
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Social Interaction Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84388199
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84388209   ; DISPLAY = WeeFIM Problem Solving Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Problem Solving Brain Injury
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Problem Solving Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Problem Solving Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Problem Solving Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = No
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Problem Solving Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = Yes
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Problem Solving Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84388213
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84388223   ; DISPLAY = WeeFIM Memory Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Memory Brain Injury
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Memory Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Memory Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Memory Brain Injury
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = No
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Memory Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = Yes
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Memory Brain Injury; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84388227
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84388237   ; DISPLAY = Reference Text WeeFIM Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = Reference Text WeeFIM Score
+Row identifier(s) - DTA_MNEMONIC = Reference Text WeeFIM Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = Reference Text WeeFIM Score
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = Reference Text WeeFIM Score
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84388241
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84388251   ; DISPLAY = WeeFIM Date of Accident
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Date of Accident
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Date of Accident
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Date of Accident
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Date of Accident
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84388255
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84388265   ; DISPLAY = WeeFIM Interview With
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Interview With
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Interview With
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Interview With
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Interview With
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84388269
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84388279   ; DISPLAY = WeeFIM Method of Admin
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Method of Admin
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Method of Admin
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Method of Admin
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Method of Admin
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = Direct observation
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Method of Admin; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = Interview with:
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Method of Admin; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84388283
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84388293   ; DISPLAY = WeeFIM Administered By
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Administered By
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Administered By
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Administered By
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Administered By
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84388297
+
+KIA-I-8026:    Event code created.
+Table name(s) - CODE_VALUE; CODE_SET = 72
+Event_cd = 84388307   ; DISPLAY = WeeFIM Credentialed
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - CODE_VALUE
+Field value(s) - CODE_SET = 14003; DISPLAY = WeeFIM Credentialed
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Credentialed
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - DISCRETE_TASK_ASSAY
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Credentialed
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - REFERENCE_RANGE_FACTOR
+Field value(s) - AGE_FROM = 0; AGE_TO = 78840000
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Credentialed
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = No
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Credentialed; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8012:    The following record was inserted:
+Table name(s) - ALPHA_RESPONSES
+Field value(s) - SOURCE_STRING = Yes
+Row identifier(s) - DTA_MNEMONIC = WeeFIM Credentialed; AGE_FROM = 0; AGE_TO = 78840000
+
+KIA-I-8011:    The following record was updated:
+Table name(s) - DISCRETE_TASK_ASSAY
+Field value(s) - Old CONCEPT_CKI: ; New CONCEPT_CKI:
+Row identifier(s) - TASK_ASSAY_CD: 84388311
+
+DEBUG
+Script elapsed time(secs):55.000000
+
+End   : SUCCESS  02-FEB-2018 12:24:44
+******************************************************************************************
+KIA_CHK_DTA_REF_TEXT            :begin >   02-FEB-2018 12:24:44
+
+End   :          02-FEB-2018 12:24:44
+******************************************************************************************
+KIA_IMP_DTA_REF_TEXT            :begin >   02-FEB-2018 12:24:44
+
+New IDs obtained successfully.
+
+
+End   : SUCCESS  02-FEB-2018 12:24:44

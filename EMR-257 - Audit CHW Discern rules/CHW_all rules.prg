@@ -1,3 +1,6 @@
+;22/09/2017 - Javad Adeli
+;This query displays all active discrn rules with Evoke details and Purpose if documented
+
 SELECT
 	RULE_NAME = EM.MODULE_NAME
 	, EVOKE_DETAILS = EMS2.EKM_INFO	

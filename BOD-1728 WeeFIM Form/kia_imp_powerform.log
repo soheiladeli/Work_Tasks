@@ -1,0 +1,56 @@
+******************************************************************************************
+KIA_IMP_POWERFORM  :begin >   02-FEB-2018 12:26:03
+
+KIA-W-5006:    WARNING: Form is overwritten.
+Row identifier(s) - Form description = Kids Rehab Outcomes Assessments
+
+KIA-W-5005:    WARNING: Section is overwritten.
+Row identifier(s) - Section description = General Assessments; Real Sect Id = 48724190
+
+KIA-W-5007:    Unable to find MERGE_NAME: DISCRETE_TASK_ASSAY
+A task assay code is not found for the following DTA description or mnemonic:
+DTA description = ; DTA mnemonic =
+
+KIA-W-5013:    Duplicate records exist in the database.
+Table name(s) - CODE_VALUE
+Field value(s) - DISPLAY: Patient Demographic Banner PowerForm
+Row identifier(s) - CODE SET: 16529        DEFINITION: 707_PAT_DEMOG_FORM
+Resolution - If you are updating, resolve or inactivate the duplicate section.
+
+KIA-W-5005:    WARNING: Section is overwritten.
+Row identifier(s) - Section description = Quality of Life Data; Real Sect Id = 48735718
+
+KIA-W-5007:    Unable to find MERGE_NAME: DISCRETE_TASK_ASSAY
+A task assay code is not found for the following DTA description or mnemonic:
+DTA description = ; DTA mnemonic =
+
+KIA-W-5013:    Duplicate records exist in the database.
+Table name(s) - CODE_VALUE
+Field value(s) - DISPLAY: Patient Demographic Banner PowerForm
+Row identifier(s) - CODE SET: 16529        DEFINITION: 707_PAT_DEMOG_FORM
+Resolution - If you are updating, resolve or inactivate the duplicate section.
+
+KIA-W-5005:    WARNING: Section is overwritten.
+Row identifier(s) - Section description = PCANS; Real Sect Id = 48735932
+
+KIA-W-5007:    Unable to find MERGE_NAME: DISCRETE_TASK_ASSAY
+A task assay code is not found for the following DTA description or mnemonic:
+DTA description = ; DTA mnemonic =
+
+KIA-W-5013:    Duplicate records exist in the database.
+Table name(s) - CODE_VALUE
+Field value(s) - DISPLAY: Patient Demographic Banner PowerForm
+Row identifier(s) - CODE SET: 16529        DEFINITION: 707_PAT_DEMOG_FORM
+Resolution - If you are updating, resolve or inactivate the duplicate section.
+
+KIA-W-5007:    Unable to find MERGE_NAME: DISCRETE_TASK_ASSAY
+A task assay code is not found for the following DTA description or mnemonic:
+DTA description = ; DTA mnemonic =
+
+KIA-W-5013:    Duplicate records exist in the database.
+Table name(s) - CODE_VALUE
+Field value(s) - DISPLAY: Patient Demographic Banner PowerForm
+Row identifier(s) - CODE SET: 16529        DEFINITION: 707_PAT_DEMOG_FORM
+Resolution - If you are updating, resolve or inactivate the duplicate section.
+
+End   : WARNING  02-FEB-2018 12:26:29

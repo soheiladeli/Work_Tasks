@@ -1,0 +1,13 @@
+
+changes in BTF acc:
+
+change "change filters text"
+fix the Pie chart css margins
+no results message on pie chart
+cursor: poiner for pie chart
+
+\\svdcemr-mfs005\\sbb\\DEV\\Winintel\\Static_Content\\BTFACC_UnifiedContent
+
+PROD prefmaint:
+"MINE", 0.0, 0.0, $USR_PERSONID$, $USR_PositionCd$, 0.0, "$APP_AppName$", "http://LB-Cerner-ODR.schn.health.nsw.gov.au/mpage-content/prod.schn.health.nsw.gov.au/UnifiedContent","VB_ANALYTICS"
+
