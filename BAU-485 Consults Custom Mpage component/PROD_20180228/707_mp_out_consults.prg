@@ -139,7 +139,7 @@ plan ord where ord.active_ind = 1
 		and ord.catalog_type_cd =  referral_cd ;referral catalog type
 join e where e.encntr_id = ord.encntr_id
 		and e.active_ind = 1
-		and e.encntr_status_cd = active_encntr_cd ;active encounters
+		;and e.encntr_status_cd = active_encntr_cd ; include both Active and Discharged encounters
 		and e.encntr_type_cd in (INPATIENT, EMERGENCY) ;inpatient, emergency encounter types
 join p where p.person_id = ord.person_id
 		and p.active_ind = 1
