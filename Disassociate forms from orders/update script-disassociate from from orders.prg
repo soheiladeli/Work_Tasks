@@ -27,3 +27,8 @@ where o.catalog_cd in (81578616.00,
    81578720.00,
    81578592.00,
    81578596.00)
+
++++++++++++++++++++++++++++++++++++++
+update into order_catalog o
+set o.form_id = 0
+where o.catalog_cd in (79069308.00)

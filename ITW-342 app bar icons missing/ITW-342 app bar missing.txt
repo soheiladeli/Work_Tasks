@@ -1,0 +1,52 @@
+********************************************************************************
+CERT - JOTHY
+
+delete into application_ini 
+where section = "23273053.CERT" 
+and application_number = 9000
+
+update into application_ini 
+set section = "23273053.CERT"
+, updt_id = 49057605
+, updt_dt_tm =  cnvtdatetime(curdate,curtime3)
+where section = "JOTHYK.CERT" 
+and application_number = 9000
+
+
+PROD - JOTHY
+
+delete into application_ini 
+where section = "23273053.PROD" 
+and application_number = 9000
+
+update into application_ini 
+set section = "23273053.PROD"
+, updt_id = 49057605
+, updt_dt_tm =  cnvtdatetime(curdate,curtime3)
+where section = "JOTHYK.PROD" 
+and application_number = 9000
+
+*********************************************************************************
+BUILD - TRISH
+delete into application_ini 
+where section = "40003285.BUILD" 
+and application_number = 9000
+
+update into application_ini 
+set section = "40003285.BUILD"
+, updt_id = 49057605
+, updt_dt_tm = cnvtdatetime(curdate,curtime3)
+where section = "PATRICA1.BUILD" 
+and application_number = 9000
+
+PROD - TRISH
+delete into application_ini 
+where section = "40003285.PROD" 
+and application_number = 9000
+
+update into application_ini 
+set section = "40003285.PROD"
+, updt_id = 49057605
+, updt_dt_tm = cnvtdatetime(curdate,curtime3)
+where section = "PATRICA1.PROD" 
+and application_number = 9000
