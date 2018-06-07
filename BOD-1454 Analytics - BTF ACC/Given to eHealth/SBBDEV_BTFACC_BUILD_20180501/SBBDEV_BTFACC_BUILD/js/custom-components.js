@@ -42,6 +42,7 @@ START OF SCHN CUSTOM CODE
 .
 // 048 Javad Adeli			16/11/2017	New developement and release of BTF Altered Calling Criteria (BTF ACC) custom MPage Component for Analytics MPage
 // 049 Javad Adeli 			6/2/2018	Customising the BTF ACC componenet Facility filter to accomodate SBB requirements
+// 050 Javad Adeli			20/4/2018	adding ACC Type coloumn to the BTF ACC componenet modal window
 
 /*************************************************************************************************************
 
@@ -317,10 +318,12 @@ schn.btf_acc.prototype.countArray = function(summs) {
 	pieHTML2.push("<h4 class='boldie'>BTF ACC Overdue Records for Facility: " + facLook + ", Specialty: " + medLook + ", Ward: " + wardLook + ", Encounter Type: " + encntrtypeLook + "</h4>");
 	if (summs.length > 0) {
 		pieHTML.push('<table id= "incomplete-dc">');
-		pieHTML.push('<tr><th>Patient Name</th><th>MRN</th><th>Ward</th><th>Next Review</th><th>Last Updated Dt</th><th>Attending Dr.</th><th>Last Signed Clinician</th><th>Specialty</th><th>ACC Comment</th><th>General Comment</th>');
+		//pieHTML.push('<tr><th>Patient Name</th><th>MRN</th><th>Ward</th><th>Next Review</th><th>Last Updated Dt</th><th>Attending Dr.</th><th>Last Signed Clinician</th><th>Specialty</th><th>ACC Comment</th><th>General Comment</th>');
+		pieHTML.push('<tr><th>Patient Name</th><th>MRN</th><th>Ward</th><th>ACC Type</th><th>Next Review</th><th>Last Updated Dt</th><th>Attending Dr.</th><th>Last Signed Clinician</th><th>Specialty</th><th>ACC Comment</th><th>General Comment</th>'); //050
         pieHTML.push('</tr>');
 		pieHTML2.push('<table id= "incomplete-dc">');
-		pieHTML2.push('<tr><th>Patient Name</th><th>MRN</th><th>Ward</th><th>Next Review</th><th>Last Updated Dt</th><th>Attending Dr.</th><th>Last Signed Clinician</th><th>Specialty</th><th>ACC Comment</th><th>General Comment</th>');
+		//pieHTML2.push('<tr><th>Patient Name</th><th>MRN</th><th>Ward</th><th>Next Review</th><th>Last Updated Dt</th><th>Attending Dr.</th><th>Last Signed Clinician</th><th>Specialty</th><th>ACC Comment</th><th>General Comment</th>');
+		pieHTML2.push('<tr><th>Patient Name</th><th>MRN</th><th>Ward</th><th>ACC Type</th><th>Next Review</th><th>Last Updated Dt</th><th>Attending Dr.</th><th>Last Signed Clinician</th><th>Specialty</th><th>ACC Comment</th><th>General Comment</th>'); //050
         pieHTML2.push('</tr>');
 
 		//looping through all ACC records and push to 2 Modal lists
@@ -332,6 +335,7 @@ schn.btf_acc.prototype.countArray = function(summs) {
                 	+ ' /FIRSTTAB=^BTF Observation Chart^\')">' + summs[j].NAME + '</a></td>');
                 pieHTML.push('<td>' + summs[j].MRN + '</td>',
 							  '<td>' + summs[j].WARD.trim() + '</td>',
+							  '<td>' + summs[j].MODIFIED_VITAL_SIGN.trim() + '</td>', // 050
 							  '<td>' + summs[j].NEXT_REVIEW + '</td>',
 							  '<td>' + summs[j].LAST_UPDATED + '</td>',
 							  '<td>' + summs[j].AMO + '</td>',
@@ -348,6 +352,7 @@ schn.btf_acc.prototype.countArray = function(summs) {
                 	+ ' /FIRSTTAB=^BTF Observation Chart^\')">' + summs[j].NAME + '</a></td>');
                 pieHTML2.push('<td>' + summs[j].MRN + '</td>',
 							  '<td>' + summs[j].WARD.trim() + '</td>',
+							  '<td>' + summs[j].MODIFIED_VITAL_SIGN.trim() + '</td>', // 050
 							  '<td>' + summs[j].NEXT_REVIEW + '</td>',
 							  '<td>' + summs[j].LAST_UPDATED + '</td>',
 							  '<td>' + summs[j].AMO + '</td>',
