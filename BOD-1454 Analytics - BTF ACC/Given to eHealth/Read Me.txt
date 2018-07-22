@@ -7,7 +7,7 @@ Developer:	Javad Adeli - SCHN
 
 How to Implemnt BTF ACC custom components:
 
-1- Compile and install the included "707_btf_acc_mp.prg" and "707_schn_get_cv" ccl programs
+1- Compile and install the included "707_btf_acc_mp.prg" ccl program
 2- Append the SCHN custom codes from the the included "custom-components.css" and "custom-components.js" files to the end of SBB Javascript and CSS files in the custom component folder. (current version icluded is 3.1.0)
 3- Build the Custom component in the MPage using bedrock
 4- Cycle server 79 and 535, and if using WAS for custom components, refresh the WAS custom-components folder

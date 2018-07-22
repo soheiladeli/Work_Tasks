@@ -12,4 +12,4 @@ How to Implemnt BTF ACC custom components:
 3- Build the Custom component in the MPage using bedrock
 4- Cycle server 79 and 535, and if using WAS for custom components, refresh the WAS custom-components folder
 
-*Note: This custom component can be used as a standalone component or in any Cerner standard MPages e.g. Summaries MPages, and and is not specific to Analytics MPage.
+*Note: This custom component can be used as a standalone component or in any Cerner standard MPages e.g. Summaries MPages, and is not specific to Analytics MPage.

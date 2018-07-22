@@ -1,0 +1,383 @@
+;***************************activity 4 - ACK_SCRIPT********************************
+declare msg = vc with noconstant("")
+set msg = oen_request->org_msg
+set msg_type = "|ADT^"
+set msg_ok = findstring(msg_type, org_msg)
+
+set ack_msg = "This is a successfull ADT ACK message"
+set nack_msg = "This is  ADT NACK message"
+
+if(msg_ok = 0 )
+	set oen_reply->out_msg = build("Error", nack_msg)
+	set oen_reply->ack_status = 0
+
+else
+	set oen_reply->out_msg = build("Ok", ack_msg)
+	set oen_reply->ack_status = 1
+endif
+
+/*
+ *  ---------------------------------------------------------------------------------------------
+ *  Script Name:  JA_MAP_FROM_LIB
+ *  Description:  JA_MAP_FROM_LIB
+ *  Type:  Open Engine Map from Library Script
+ *  ---------------------------------------------------------------------------------------------
+ *  Author:  DL3
+ *  Domain:  KWTR06
+ *  Creation Date:  5/25/2017 11:40:50 PM
+ *  ---------------------------------------------------------------------------------------------
+ */
+;***********************************Activity 12 - MAP_FROM_LIB********************************************
+declare DELIMITER = vc with constant("-|")
+
+Set msg_type = oen_request->CONTROL_GROUP [1]->MSH [1]->message_type->messg_type
+
+Set msg_trigger = oen_request->CONTROL_GROUP [1]->MSH [1]->message_type->messg_trigger 
+
+Set patient_mrn = oen_request->PERSON_GROUP [1]->PAT_GROUP [1]->PID [1]->patient_id_int [1]->pat_id 
+
+Set patient_last_name = oen_request->PERSON_GROUP [1]->PAT_GROUP [1]->PID [1]->patient_name [1]->last_name
+
+Set patient_first_name = oen_request->PERSON_GROUP [1]->PAT_GROUP [1]->PID [1]->patient_name [1]->first_name
+
+;creating xml file output
+set oen_reply->out_msg = 
+concat( "<my_message>", char(13)
+,"<msg_type>", msg_type, "</msg_type>", char(13)
+,"<msg_rigger>", msg_trigger, "</msg_trigger>", char(13)
+,"<patient_last_name>",  patient_last_name, "</patient_last_name>", char(13)
+,"<patient_first_name>",  patient_first_name, "</patient_first_name>", char(13)
+,"<patient_mrn>",  patient_mrn, "</patient_mrn>", char(13)
+,"</my_message>", char(0) )
+
+/* ;creating delimited seperated file output
+set oen_reply->out_msg = concat(msg_type
+                                 , DELIMITER, msg_trigger
+                                 , DELIMITER, patient_last_name
+                                 , DELIMITER, patient_first_name
+                                 , DELIMITER, patient_mrn
+                                 , DELIMITER, char(0) )
+*/
+
+/*
+ *  ---------------------------------------------------------------------------------------------
+ *  Script Name:  JA_MAP_TO_LIB
+ *  Description:  JA_MAP_TO_LIB
+ *  Type:  Open Engine Map to Library Script
+ *  ---------------------------------------------------------------------------------------------
+ *  Author:  DL3
+ *  Domain:  KWTR06
+ *  Creation Date:  5/25/2017 7:06:46 PM
+ *  ---------------------------------------------------------------------------------------------
+ */
+;*************************************Activity 10 - MAP_TO_LIB*******************************************************************
+;mapping sending application
+Set oen_reply->CONTROL_GROUP [1]->MSH [1]->sending_application = "JA_SYS"
+
+
+;mapping the message type and message triger
+set oen_reply->CONTROL_GROUP [1]->MSH [1]->message_type->messg_type = 
+                                                                                      substring(1, 3, oen_request->org_msg)
+set oen_reply->CONTROL_GROUP [1]->MSH [1]->message_type->messg_trigger = 
+                                                                                       substring(4, 3, oen_request->org_msg)
+
+;mapping MRN
+set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PID [1]->patient_id_int [1]->
+                                                                        pat_id = substring(7, 10, oen_request->org_msg)
+
+;setting FIN Number
+
+;mapping last name and first name
+declare name_full = c30
+
+set name_full = substring(25, 30,oen_request->org_msg )
+set nam_comma =  findstring(",",name_full,1)
+
+set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PID [1]->patient_name [1]->
+                                                           last_name =trim(substring(1,nam_comma -1, name_full))
+
+set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PID [1]->patient_name [1]->
+first_name = trim(substring(nam_comma +1,30 - nam_comma, name_full))
+
+;mapping sex
+set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PID [1]->sex = 
+                                                                                          substring(55, 1, oen_request->org_msg)
+;mapping data of birth
+set dob = substring(56, 10, oen_request->org_msg)
+set mm =substring(1,2,dob)
+set dd =substring(4,2,dob)
+set yyyy =substring(7,4,dob)
+Set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PID [1]->date_of_birth =
+                                                                                                    concat(yyyy,mm,dd)
+;mapping nursing station
+set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PV1 [1]->
+                   assigned_pat_loc->nurse_unit = substring(66, 5, oen_request->org_msg)
+;mapping room
+set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PV1 [1]->assigned_pat_loc->
+                                                                               room = substring(71, 3, oen_request->org_msg)
+
+;mapping bed
+set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PV1 [1]->assigned_pat_loc->
+                                                                                   bed = substring(74, 2, oen_request->org_msg)
+
+;mapping medical service
+set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PV1 [1]->hospital_service = 
+                                                                                            substring(76, 4, oen_request->org_msg)
+
+
+;settining admit datetime
+set admdttm = substring(80, 18, oen_request->org_msg)
+set admmm =substring(1,2,admdttm)
+set admdd =substring(4,2,admdttm)
+set admyyyy =substring(7,4,admdttm)
+set adm_hh = substring(11,2,admdttm)
+set adm_mm = substring(14,2,admdttm)
+set adm_ss = substring(17,2,admdttm)
+
+;mapping admit date time
+set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PV1 [1]->admit_dt_tm = 
+                                        concat(admyyyy,admmm,admdd,adm_hh,adm_mm,adm_ss)
+
+;mapping patient type
+set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PV1 [1]->patient_type = 
+                                                                                   substring(98, 1, oen_request->org_msg)
+
+
+;mapping admit reason
+set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PV2 [1]->admit_reason->
+                                                                         text = substring(99, 22, oen_request->org_msg)
+
+
+/*
+ *  ---------------------------------------------------------------------------------------------
+ *  Script Name:  JA_MAP_TO_LIB2
+ *  Description:  JA_MAP_TO_LIB2
+ *  Type:  Open Engine Map to Library Script
+ *  ---------------------------------------------------------------------------------------------
+ *  Author:  DL3
+ *  Domain:  KWTR06
+ *  Creation Date:  5/25/2017 10:17:16 PM
+ *  ---------------------------------------------------------------------------------------------
+ */
+;************************Activity 11_ MAP_TO_LIB2*****************************************
+
+;delimiter
+declare delimiter = c1 with constant("|")
+
+;message
+declare msg = vc
+set msg = oen_request->org_msg
+
+Set oen_reply->CONTROL_GROUP [1]->MSH [1]->message_type->messg_type = 
+                                                                                    piece(msg, delimiter, 1, "Not Found", 4)
+
+Set oen_reply->CONTROL_GROUP [1]->MSH [1]->message_type->messg_trigger = 
+                                                                                       piece(msg, delimiter, 2, "Not Found", 4)
+
+Set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PID [1]->
+patient_id_int [1]->pat_id = piece(msg, delimiter, 3, "Not Found", 4)
+
+Set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PID [1]->
+patient_account_nbr->pat_id = piece(msg, delimiter, 4, "Not Found", 4)
+
+;full name
+set full_name = piece(msg, delimiter, 5, "Not Found", 5)
+
+Set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PID [1]->patient_name [1]->
+last_name = piece(full_name, ",", 1, "Not found", 4)
+
+Set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PID [1]->patient_name [1]->
+first_name = piece(full_name, ",", 2, "Not found", 4)
+
+
+;*************Activity 9 - second MOD_OBJ_IN*******************************************************************
+;getting messega type from object
+set msg_type = oen_reply->control_group[1]->msh[1]->message_type->messg_type
+
+
+
+;ignore all messages that are not ADT or ORM
+if(msg_type not in ("ADT", "ORM"))
+	set oenstatus->ignore = 1
+	execute oencpm_msglog (build("These message will not be routed : ",msg_type))
+endif
+
+;************Activity 5 - first MOD_OBJ_IN******************************************************************
+declare pat_temp = vc
+declare SS_Num = vc
+
+; place ext id into temp variable
+Set pat_temp = oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PID [1]->patient_id_ext->pat_id 
+
+; place int id into ext id field
+Set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PID [1]->patient_id_ext->pat_id = 
+      oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PID [1]->patient_id_int [1]->pat_id 
+
+; place temp variable into int id field
+
+Set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PID [1]->patient_id_int [1]->pat_id = pat_temp
+
+; strip off dashes in the SSN
+
+Set SS_Num = replace(oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PID [1]->ssn_nbr,"-", "",0)
+
+execute oencpm_msglog(build(" SSN after replace: ", SS_Num, char(0)))
+ 
+Set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PID [1]->ssn_nbr = SS_Num
+
+;PV1.7 - Attending Doctor
+if(oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PV1 [1]->attending_doc->id_type != "COMMUNITY DR NBR") 
+   Set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PV1 [1]->attending_doc->id_nbr = "" 
+   Set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PV1 [1]->attending_doc->last_name = ""
+   Set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PV1 [1]->attending_doc->first_name =  ""
+   Set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PV1 [1]->attending_doc->middle_name = ""
+   Set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PV1 [1]->attending_doc->suffix = ""
+   Set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PV1 [1]->attending_doc->prefix = ""
+   Set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PV1 [1]->attending_doc->degree = ""
+   Set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PV1 [1]->attending_doc->source =  ""
+   Set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PV1 [1]->attending_doc->assign_auth_id = ""
+   Set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PV1 [1]->attending_doc->name_type_cd = ""
+   Set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PV1 [1]->attending_doc->check_digit = ""
+   Set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PV1 [1]->attending_doc->check_digit_scheme = ""
+   Set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PV1 [1]->attending_doc->id_type = ""
+   Set oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PV1 [1]->attending_doc->assign_fac_id = ""
+endif
+
+;PV1.8 - Referring Doctor
+set ref_sz = size(oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PV1 [1]->referring_doc, 5)
+set ref_x =1
+while (ref_x <= ref_sz)
+   if(oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PV1 [1]->referring_doc [ref_x]->id_type  != "COMMUNITY DR NBR") 
+      Set stat = alterlist(oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PV1 [1]->referring_doc, ref_sz - 1, ref_x - 1)
+      Set ref_sz = ref_sz-1
+      Set ref_x = ref_x-1
+   else
+      Set ref_x = ref_x +1
+     endif
+endwhile
+
+;PV1.9 - Consulting Doctor
+if(oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PV1 [1]->consulting_doc [1]->id_nbr != "")
+     set con_sz = size(oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PV1 [1]->consulting_doc,5)
+     set con_x = 1
+     while (con_x <= con_sz)
+         if(oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PV1 [1]->consulting_doc [con_x]->id_type != "COMMUNITY DR NBR") 
+            Set stat = alterlist(oen_reply->PERSON_GROUP [1]->PAT_GROUP [1]->PV1 [1]->consulting_doc, con_sz - 1, con_x - 1)
+            Set con_sz = con_sz-1
+            Set con_x = con_x-1
+     endif
+     set con_x = con_x +1
+     endwhile
+endif
+
+;*****************Activity 6 - mod_org_in******************
+;temp record structure to store message
+RECORD TMP
+(
+	1 MSG = VC
+	1 FIRST = VC
+	1 LAST = VC
+)
+
+;setting message log
+EXECUTE OENCPM_MSGLOG(BUILD("In Z Segment",CHAR(0)))
+
+SET TMP->MSG = BUILD(OEN_REQUEST->ORG_MSG, CHAR(13))
+
+;setting start position of the first Z segment
+SET POS_START = FINDSTRING(BUILD(CHAR(13),"Z"), TMP->MSG,1)
+
+WHILE (POS_START != 0)
+	SET POS_END = FINDSTRING(CHAR(13), TMP->MSG, POS_START + 1) ;setting the end position of the Z segment
+	SET ST_SIZE = SIZE(TMP->MSG)	
+	SET TMP->FIRST = SUBSTRING(1, POS_START, TMP->MSG)
+	SET TMP->LAST = SUBSTRING(POS_END+1, ST_SIZE - POS_END, TMP->MSG)
+	SET TMP->MSG = BUILD(TMP->FIRST, TMP->LAST, CHAR(0))
+	SET POS_START = FINDSTRING(BUILD(CHAR(13),"Z"),TMP->MSG,1)
+	EXECUTE OENCPM_MSGLOG("LOOPING")
+ENDWHILE
+
+SET OEN_REPLY->OUT_MSG = BUILD(TMP->MSG,CHAR(0))
+
+;*******************Activity 8 - rout_script*************
+;getting messega type from object
+SET MSG_TYPE = OENOBJ->CONTROL_GROUP[1]->MSH[1]->MESSAGE_TYPE->MESSG_TYPE
+
+EXECUTE OENCPM_MSGLOG (BUILD("Type of Transaction = ",MSG_TYPE))
+
+CASE (MSG_TYPE)
+	OF "ADT":
+		SET STAT = ALTERLIST(OENROUTE->ROUTE_LIST, 1)
+		SET OENROUTE->ROUTE_LIST[1]->R_PID = 1320
+		SET OENSTATUS->STATUS = 1
+	OF "ORM":
+		SET STAT = ALTERLIST(OENROUTE->ROUTE_LIST, 1)
+		SET OENROUTE->ROUTE_LIST[1]->R_PID = 1347
+		SET OENSTATUS->STATUS = 1
+	ELSE
+		SET STAT = ALTERLIST(OENROUTE->ROUTE_LIST, 2)
+		SET OENROUTE->ROUTE_LIST[1]->R_PID = 1320
+		SET OENROUTE->ROUTE_LIST[2]->R_PID = 1347
+		SET OENSTATUS->STATUS = 1
+ENDCASE
+
+;************Activity 7 - Type_script*******************
+; Define the field delimiter
+declare FD = c1 with constant("|")
+
+; Define the End Of Segment Delimiter
+declare EOSD = c1 with constant(char(13))
+
+; Define the subfield delimiter
+declare SFD = c1 with constant("^")
+
+; Define the field number containing the type/trigger
+; Typically the type/trigger is the 8th field in MSH
+set FLDNUM = 8
+
+;retrieve message
+set msg = oen_request->org_msg
+
+; Search MSH segment
+set header_start_pos = findstring( "MSH", msg)
+if( header_start_pos=0 or header_start_pos>1 )
+	execute oencpm_msglog ("Type Error - MSH Segment not found.")
+	set oen_reply->type = concat("xxx", char(0))
+	go to single_exit
+endif
+
+; Search end of MSH segment
+set header_end_pos = findstring (EOSD, msg, header_start_pos)
+if (header_end_pos = 0)
+	set oen_reply->type = concat("xxx", char(0))
+	execute oencpm_msglog ("Type Error - End of MSH segment not found.")
+	go to single_exit
+endif   
+
+; retreive MSH segment from orginal message
+set header_segment_str = substring(header_start_pos, header_end_pos-header_start_pos+1, msg)
+execute oencpm_msglog (build("header_segment_str=", header_segment_str, char(0)))
+
+if (findstring("|ADT^", header_segment_str) > 0)
+	;setting messsage type
+	set oen_reply->type = concat("ADT", char(0))
+
+	;setting message trigger
+	set oen_reply->trigger = concat("ADT", char(0))
+elseif(findstring("|ORM^", header_segment_str) > 0)
+	;setting messsage type
+	set oen_reply->type = concat("ORM", char(0))
+
+	;setting message trigger
+	set oen_reply->trigger = concat("ORM", char(0))
+elseif(findstring("|ORU^", header_segment_str) > 0)
+	;setting messsage type
+	set oen_reply->type = concat("ORU", char(0))
+
+	;setting message trigger
+	set oen_reply->trigger = concat("ORU", char(0))
+endif
+
+
+
+
